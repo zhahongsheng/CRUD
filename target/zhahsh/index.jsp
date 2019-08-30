@@ -142,11 +142,11 @@
     <%--    显示数据--%>
     <div class="row">
         <div class="col-md-12">
-            <table class="table table-hover" id="emps_table">
+            <table class="table table-hover" id= "emps_table">
                 <thead>
                 <tr>
                     <th>
-                        <input type="checkbox" id="check_all"/>
+                        <input type = "checkbox" id= "check_all"/>
                     </th>
                     <th>#</th>
                     <th>empName</th>
@@ -440,11 +440,9 @@
 
                     //2、来到最后一页，显示刚才保存的数据
                     //发送ajax请求显示最后一页数据即可
-                    debugger
-                    to_page(1000000);
+                    to_page(totalRecord);
                 } else {
                     //显示失败信息
-                    //console.log(result);
                     //有哪个字段的错误信息就显示哪个字段的；
                     if (undefined != result.extend.errorFields.email) {
                         //显示邮箱错误信息
@@ -460,10 +458,9 @@
     });
 
     //1、我们是按钮创建之前就绑定了click，所以绑定不上。
-    //1）、可以在创建按钮的时候绑定。    2）、绑定点击.live()
+         //1）、可以在创建按钮的时候绑定。    2）、绑定点击.live()
     //jquery新版没有live，使用on进行替代
     $(document).on("click", ".edit_btn", function () {
-        //alert("edit");
         //0、查出员工信息，显示员工信息
         //1、查出部门信息，并显示部门列表
         getDepts("#empUpdateModal select");
@@ -484,7 +481,7 @@
             success: function (result) {
                 //console.log(result);
                 var empData = result.extend.emp;
-                debugger
+                // debugger
                 $("#empName_update_static").text(empData.empName);
                 $("#email_update_input").val(empData.email);
                 $("#empUpdateModal input[name=gerder]").val([empData.gerder]);
@@ -552,7 +549,7 @@
         $(".check_item").prop("checked", $(this).prop("checked"));
     });
 
-    //check_item
+    //检查当前项目长度
     $(document).on("click", ".check_item", function () {
         //判断当前选择中的元素是否5个
         var flag = $(".check_item:checked").length == $(".check_item").length;
