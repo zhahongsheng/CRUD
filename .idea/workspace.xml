@@ -9,12 +9,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/Java/com/yuanian/test/MvcTest.java" description="MockHttpServletRequest request = result.getRequest..." line="44" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2db2c075-f4c2-4c9c-a6e1-55ae75ada38f" name="Default Changelist" comment="">
+    <list default="true" id="2db2c075-f4c2-4c9c-a6e1-55ae75ada38f" name="Default Changelist" comment="2019.08.30——13：53CRUD项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/yuanian/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/yuanian/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/com/yuanian/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/com/yuanian/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,36 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="15240">
               <caret line="508" column="19" selection-start-line="508" selection-start-column="19" selection-end-line="508" selection-end-column="22" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#7629#7670#0#HTML" />
-                <element signature="e#7711#8174#0#HTML" />
-                <element signature="e#8214#9833#0#HTML" />
-                <element signature="e#9887#10224#0#HTML" />
-                <element signature="e#10291#12409#0#HTML" />
-                <element signature="e#11778#12214#0#HTML" />
-                <element signature="e#12456#12615#0#HTML" />
-                <element signature="e#12682#12966#0#HTML" />
-                <element signature="e#13022#13721#0#HTML" />
-                <element signature="e#13769#14821#0#HTML" />
-                <element signature="e#14890#15294#0#HTML" />
-                <element signature="e#15363#16013#0#HTML" />
-                <element signature="e#16075#17552#0#HTML" />
-                <element signature="e#16386#17544#0#HTML" />
-                <element signature="e#17560#17590#0#HTML" />
-                <element signature="e#17715#18092#0#HTML" />
-                <element signature="e#18146#18688#0#HTML" />
-                <element signature="e#19693#20338#0#HTML" />
-                <element signature="e#20397#20573#0#HTML" />
-                <element signature="e#20649#20807#0#HTML" />
-                <element signature="e#20877#21772#0#HTML" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="482">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
@@ -108,20 +76,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/com/yuanian/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1770">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="1200">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1638#1651#0" />
                 <element signature="method#saveEmp#0;class#EmployeeController#0" />
-                <element signature="e#2059#2123#0" />
                 <element signature="method#getEmp#0;class#EmployeeController#0" />
                 <element signature="docComment;method#checkuser#0;class#EmployeeController#0" />
-                <element signature="e#2391#2420#0" />
                 <element signature="method#checkuser#0;class#EmployeeController#0" />
-                <element signature="e#2977#3037#0" />
                 <element signature="method#saveEmp#1;class#EmployeeController#0" />
-                <element signature="e#4020#4044#0" />
                 <element signature="method#getEmpsWithJson#0;class#EmployeeController#0" />
                 <element signature="method#getEmps#0;class#EmployeeController#0" />
               </folding>
@@ -132,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
+            <state relative-caret-position="750">
               <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
@@ -141,11 +104,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="2640">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#tr#0;n#table#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" />
               </folding>
             </state>
@@ -160,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/EmployeeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="990">
+              <caret line="33" column="65" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -169,11 +130,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/com/yuanian/bean/Msg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-427">
-              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#194#210#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -206,6 +166,9 @@
       <find>emp_add_modal_btn</find>
       <find>empName_update_static</find>
     </findStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -269,17 +232,13 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="zhahsh Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="zhahsh Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="334" />
+    <option name="y" value="31" />
     <option name="width" value="1071" />
     <option name="height" value="1047" />
   </component>
@@ -291,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,27 +265,6 @@
             </path>
             <path>
               <item name="zhahsh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhahsh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhahsh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhahsh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhahsh" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhahsh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhahsh" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -333,7 +272,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,6 +593,7 @@
       <workItem from="1567094315070" duration="9206000" />
       <workItem from="1567125708987" duration="14085000" />
       <workItem from="1567145236278" duration="8192000" />
+      <workItem from="1567156279898" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="基于ssm的增删改查小项目">
       <created>1567137042461</created>
@@ -706,7 +645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123340000" />
+    <option name="totallyTimeSpent" value="124682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1152,13 +1091,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/yuanian/bean/Msg.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-427">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15240">
+          <caret line="508" column="19" selection-start-line="508" selection-start-column="19" selection-end-line="508" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/yuanian/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#194#210#0" expanded="true" />
+            <element signature="method#saveEmp#0;class#EmployeeController#0" />
+            <element signature="method#getEmp#0;class#EmployeeController#0" />
+            <element signature="docComment;method#checkuser#0;class#EmployeeController#0" />
+            <element signature="method#checkuser#0;class#EmployeeController#0" />
+            <element signature="method#saveEmp#1;class#EmployeeController#0" />
+            <element signature="method#getEmpsWithJson#0;class#EmployeeController#0" />
+            <element signature="method#getEmps#0;class#EmployeeController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -1168,98 +1144,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/EmployeeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/com/yuanian/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1638#1651#0" />
-            <element signature="method#saveEmp#0;class#EmployeeController#0" />
-            <element signature="e#2059#2123#0" />
-            <element signature="method#getEmp#0;class#EmployeeController#0" />
-            <element signature="docComment;method#checkuser#0;class#EmployeeController#0" />
-            <element signature="e#2391#2420#0" />
-            <element signature="method#checkuser#0;class#EmployeeController#0" />
-            <element signature="e#2977#3037#0" />
-            <element signature="method#saveEmp#1;class#EmployeeController#0" />
-            <element signature="e#4020#4044#0" />
-            <element signature="method#getEmpsWithJson#0;class#EmployeeController#0" />
-            <element signature="method#getEmps#0;class#EmployeeController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#tr#0;n#table#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="508" column="19" selection-start-line="508" selection-start-column="19" selection-end-line="508" selection-end-column="22" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#7629#7670#0#HTML" />
-            <element signature="e#7711#8174#0#HTML" />
-            <element signature="e#8214#9833#0#HTML" />
-            <element signature="e#9887#10224#0#HTML" />
-            <element signature="e#10291#12409#0#HTML" />
-            <element signature="e#11778#12214#0#HTML" />
-            <element signature="e#12456#12615#0#HTML" />
-            <element signature="e#12682#12966#0#HTML" />
-            <element signature="e#13022#13721#0#HTML" />
-            <element signature="e#13769#14821#0#HTML" />
-            <element signature="e#14890#15294#0#HTML" />
-            <element signature="e#15363#16013#0#HTML" />
-            <element signature="e#16075#17552#0#HTML" />
-            <element signature="e#16386#17544#0#HTML" />
-            <element signature="e#17560#17590#0#HTML" />
-            <element signature="e#17715#18092#0#HTML" />
-            <element signature="e#18146#18688#0#HTML" />
-            <element signature="e#19693#20338#0#HTML" />
-            <element signature="e#20397#20573#0#HTML" />
-            <element signature="e#20649#20807#0#HTML" />
-            <element signature="e#20877#21772#0#HTML" />
-          </folding>
+        <state relative-caret-position="990">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="482">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/com/yuanian/bean/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
