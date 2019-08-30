@@ -21,9 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
 
-/**
- * 处理员工CRUD请求
- */
+
 @Controller
 public class EmployeeController {
 
@@ -40,7 +38,7 @@ public class EmployeeController {
     @ResponseBody
     public Msg deleteEmpById(@PathVariable("id")String ids){
         //批量删除
-        if (ids.contains("-")){
+        if (ids != null){
             List<Integer> del_ids = new ArrayList<> ();
             String[] str_ids = ids.split("-");
             //组装id集合
@@ -49,11 +47,17 @@ public class EmployeeController {
             }
 //            for (String id : str_ids)
             employeeService.deleteBatch(del_ids);
+            return Msg.success();
         }else {
-            Integer id = Integer.parseInt(ids);
-            employeeService.deleteEmp(id);
+            return Msg.fail();
         }
-        return Msg.success();
+
+
+//        else {
+//            Integer id = Integer.parseInt(ids);
+//            employeeService.deleteEmp(id);
+//        }
+
     }
 
 
@@ -65,11 +69,12 @@ public class EmployeeController {
     @ResponseBody
     @RequestMapping(value="/emp/{empId}",method=RequestMethod.PUT)
     public Msg saveEmp(Employee employee,HttpServletRequest request){
-        System.out.println("请求体中的值："+request.getParameter("gender"));
-        System.out.println("将要更新的员工数据："+employee);
+//        System.out.println("请求体中的值："+request.getParameter("gender"));
+//        System.out.println("将要更新的员工数据："+employee);
         employeeService.updateEmp(employee);
         return Msg.success()	;
     }
+
 
     /**
      * 根据id查询
@@ -84,15 +89,13 @@ public class EmployeeController {
     }
 
     /**
-     * 检查用户名是否可用
-     *
+     * 检查用户名是否可用，后端校验
      * @param empName
      * @return
      */
     @RequestMapping("/checkuser")
     @ResponseBody
     public Msg checkuser(String empName) {
-
         //先判断用户名是否是合法的表达式
         String regx = "(^[a-zA-Z0-9_-]{6,16}$)|(^[\u2E80-\u9FFF]{2,5})";
         if (!empName.matches(regx)) {
@@ -100,8 +103,9 @@ public class EmployeeController {
         }
 
         //数据库用户名重复校验
-        boolean b = employeeService.checkUser(empName);
-        if (b) {
+        boolean flag;
+                flag= employeeService.checkUser(empName);
+        if (flag) {
             return Msg.success();
         } else {
             return Msg.fail().add("va_msg","用户名不可用");
@@ -110,7 +114,6 @@ public class EmployeeController {
 
     /**
      * 员工保存
-     *
      * @return
      */
     @RequestMapping(value = "/emp", method = RequestMethod.POST)
@@ -137,6 +140,13 @@ public class EmployeeController {
         }
     }
 
+
+    /**
+     * 查询所有信息
+     * @param pn：页码
+     * @param model
+     * @return返回Json字符串
+     */
     @RequestMapping("/emps")
     @ResponseBody
     public Msg getEmpsWithJson(
@@ -155,7 +165,6 @@ public class EmployeeController {
 
     /**
      * 查询员工数据
-     *
      * @return
      */
 //    @RequestMapping("/emps")
